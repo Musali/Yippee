@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fotofan</title>
+	<link rel="stylesheet" href="CSS/fotofan.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+<!--==================================================================================== -->
+
+
+<div class="navbar">
+	<div class="wrapper">
+	   <div class="search">
+	      <input type="text" class="searchTerm"  id="search" placeholder="What are you looking for?" required>
+	      <button type="button" class="searchButton">
+	        <img id="srchImg" src="images/searchIcon.png">
+	     </button>
+	   </div>
+	   
+   </div>
+	<ul><li class="home">Home <img class="home" src="images/home-icon.png" width="15"> </li>
+   <li>
+    Contact Us <img src="images/contact-us.png" width="15"> 
+    <ul>
+      <li>Musa Ali
+         <ul>
+           <a href="http://cs.wheatoncollege.edu/~mali/"><li id= "musaAliInfo">musa_ali@wheatoncollege.edu. Wheaton College</li></a>
+         </ul>
+    </li>
+      
+      <li>Phuntsho
+        <ul>
+            <a href="http://cs.wheatoncollege.edu/~pnorbu/"><li id= "musaAliInfo">norbu_phuntsho@wheatoncollege.edu. Wheaton College</li></a>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+     Year <img src="images/calendar.png" width="15"> 
+    <ul>
+      <li id= "year2017">2017 </li>
+      <li id="year2016">2016</li>
+      <li id="year2015">2015</li>
+      <li id="year2013">2013</li>
+      <li id="year2012">2012</li>
+      <li id="year2010">2010</li>
+      <li id="year2008">2008</li>
+      <li id="year2007">2007</li>
+      <li id="year2005">2005</li>
+    </ul>
+  </li>
+  <li>
+    Country <img src="images/world-map.png" width="15">
+    <ul>
+      <li id="countryEng">England</li>
+      <li id="countryGer">Germany</li>
+      <li id="countrySpa">Spain</li>
+      <li id="countryUS">United States</li>
+      
+    </ul>
+  </li>
+  
+  <li>
+     State <img src="images/state.png" width="19">
+    <ul>
+      <li id="stateCO">Colorado</li>
+      <li id="stateFL">Florida</li>
+      <li id="stateMA">Massachussets</li>
+      <li id="stateNH">New Hampshire</li>
+      <li id="stateNM">New Mexico</li>
+      <li id="stateVM">Vermont</li>
+      <li id="stateWY">Wyoming</li>
+    </ul>
+  </li>
+    <li id="upload0" class="uploads">
+     Upload <img class="uploads" src="images/upload.png" width="15">
+  </li>
+  	<div class="rightnav">
+		<button id="logOutbtn" style="width:auto;">Log Out</button>
+		<button id="lb">Joe</button>
+	</div>
+</div>
+</ul>
+
+
+
+
+<!--============================================================================-->
+
+<!--==================================================================================== --> 
+
+<div id="imgContainer0">
+</div>
+
+<div id="imgContainer1">
+</div>
+
+<div class="slider" id="slider">
+	<span class="close">&times;</span>
+	<div class="caption"></div>
+	<div class="leftClick">&#10094;</div>
+	<div class="rightClick">&#10095;</div>
+	<div class="thumbnails">
+	</div>
+</div>
+ <!--==================================================================================== --> 
+<script src="JS/fotofan.js"></script>
+</body>
+</html>
